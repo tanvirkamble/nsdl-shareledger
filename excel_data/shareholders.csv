@@ -1,0 +1,7 @@
+name,pan_number,email,kyc_status,total_shares,active
+Alice,ABC1234XYZ,alice@astro.com,verified,0,true
+Bob,XYZ7890ABC,bob@astro.com,verified,0,true
+Carol,PQR4567LMN,carol@greenleaf.com,verified,0,true
+David,LMN3456PQR,david@greenleaf.com,verified,0,true
+Eve,JKL6543STU,eve@blueocean.com,verified,0,true
+Frank,STU9876JKL,frank@blueocean.com,verified,0,true
