@@ -7,14 +7,10 @@ This project handles companies, shareholders, certificates, applicants, and vali
 
 ## 📁 Repository Structure
 
-📂 ER - diagram
-└── image.png # ER diagram of the entire schema
-📂 excel*data
-└── *.csv # Sample input data for companies, shareholders, etc.
-📂 insert and update
-└── \_.sql # Scripts for insertions and updates
-📂 trigger
-└── \*.sql # All PL/pgSQL trigger functions and definitions
+📂 ER - diagram : image.png # ER diagram of the entire schema
+📂 excel data : _.csv # Sample input data for companies, shareholders, etc.
+📂 insert and update : _.sql # Scripts for insertions and updates
+📂 trigger : \*.sql # All PL/pgSQL trigger functions and definitions
 📜 schema.sql # Base schema with table definitions
 
 ---
