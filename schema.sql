@@ -45,7 +45,7 @@ CREATE TABLE data.certificates (
   issued_on DATE DEFAULT CURRENT_DATE,
   status TEXT CHECK (status IN ('active', 'lost', 'cancelled')) DEFAULT 'active',
   origin_type TEXT CHECK (origin_type IN ('initial', 'transfer', 'reissue')) DEFAULT 'initial',
-  reissue_of INT REFERENCES data.certificates(id),
+  reissue_of INT REFERENCES data.certificates(id) ON DELETE SET NULL,
   transaction_id INT,
 
   FOREIGN KEY (company_id) REFERENCES data.companies(id),
